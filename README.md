@@ -21,8 +21,12 @@ Write a function that finds missing number in array. Given array of sequent numb
 | [0, 1, 3, 2]         | 0      |
 | [-2, 0, 1, 2]        | -1     |
 
+## Online Decision
+
+**[Playcode.io](https://playcode.io/1832463)**
 
 ## Code
+
 **_Decision 1_**
 ```javascript
 function findMissingNumberDec1(arr) {
@@ -56,6 +60,7 @@ console.log(findMissingNumberDec1([5, 0, 1, 3, 2, 1])); // Output: 4
 console.log(findMissingNumberDec1([0, 1, 3, 2])); // Output: 0
 console.log(findMissingNumberDec1([-2, 0, 1, 2])) // Output: -1
 ```
+
 _**Decision 2**_
 
 ```javascript
