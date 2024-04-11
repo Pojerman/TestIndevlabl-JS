@@ -41,7 +41,7 @@ function findMissingNumberDec1(arr) {
     const minNumber = Math.min(...uniqueArr);
     const maxNumber = Math.max(...uniqueArr);
 
-    // Находим сумму арифмитической прогрессии
+    // Находим сумму арифметической прогрессии
     const expectedSum = (minNumber + maxNumber) * (maxNumber - minNumber + 1) / 2;
     // Находим сумму элементов массива
     const actualSum = uniqueArr.reduce((acc, curr) => acc + curr, 0);
